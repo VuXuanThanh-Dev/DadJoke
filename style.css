@@ -1,0 +1,38 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: teal;;
+    color: white;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    padding:20px 40px;
+}
+
+.joke {
+    color: rgb(36, 35, 35);
+
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    background-color: lightseagreen;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98)
+}
